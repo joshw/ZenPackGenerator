@@ -39,9 +39,10 @@ class Defaults(object):
                                   ]
 
         self.device_imports = ['from zope.interface import implements',
+                               'from Products.ZenModel.ZenossSecurity import ZEN_CHANGE_DEVICE',
                                'from Products.Zuul.form import schema',
                                'from Products.Zuul.infos import ProxyProperty',
                                'from Products.Zuul.infos.device import DeviceInfo',
-                               'from Products.Zuul.interface.device import IDeviceInfo',
+                               'from Products.Zuul.interfaces.device import IDeviceInfo',
                                'from Products.Zuul.utils import ZuulMessageFactory as _t',
                                ]
